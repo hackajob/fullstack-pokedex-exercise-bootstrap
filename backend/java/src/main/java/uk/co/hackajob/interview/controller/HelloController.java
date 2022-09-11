@@ -1,4 +1,4 @@
-package uk.co.argos.interview.controller;
+package uk.co.hackajob.interview.controller;
 
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-import uk.co.argos.interview.service.PokedexService;
-import uk.co.argos.interview.entity.Pokemon;
+import uk.co.hackajob.interview.service.PokedexService;
+import uk.co.hackajob.interview.entity.Pokemon;
 
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 @RestController

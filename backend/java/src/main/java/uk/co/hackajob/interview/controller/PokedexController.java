@@ -1,4 +1,4 @@
-package uk.co.argos.interview.controller;
+package uk.co.hackajob.interview.controller;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 

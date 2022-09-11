@@ -1,4 +1,4 @@
-package uk.co.argos.interview.entity;
+package uk.co.hackajob.interview.entity;
 
 import java.util.HashMap;
 

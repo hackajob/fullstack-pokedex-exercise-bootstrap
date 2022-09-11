@@ -1,4 +1,4 @@
-package uk.co.argos.interview;
+package uk.co.hackajob.interview;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

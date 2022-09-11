@@ -1,4 +1,4 @@
-package uk.co.argos.interview.service;
+package uk.co.hackajob.interview.service;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;

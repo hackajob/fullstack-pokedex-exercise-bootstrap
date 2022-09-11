@@ -8,7 +8,7 @@
 		<version>2.1.7.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>uk.co.argos</groupId>
+	<groupId>uk.co.hackajob</groupId>
 	<artifactId>interview</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>interview</name>

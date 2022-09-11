@@ -1,6 +1,6 @@
-package uk.co.argos.interview.service;
+package uk.co.hackajob.interview.service;
 
-import uk.co.argos.interview.entity.Pokemon;
+import uk.co.hackajob.interview.entity.Pokemon;
 
 public class PokedexService {
 
