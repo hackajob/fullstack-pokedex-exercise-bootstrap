@@ -15,7 +15,7 @@ public class HelloController {
         return "Greetings from Spring Boot!";
     }
     
-    @GetMapping("/h/c/n/{name}")
+    @GetMapping("/h/p/n/{name}")
     public boolean check(@PathVariable String name) {
         PokedexService validator = new PokedexService();
 
