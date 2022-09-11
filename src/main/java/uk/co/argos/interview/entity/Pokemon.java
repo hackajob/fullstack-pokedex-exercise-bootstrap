@@ -1,9 +1,7 @@
 package uk.co.argos.interview.entity;
 
 import java.util.HashMap;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
-@JsonIgnoreProperties(ignoreUnknown = true)
 public class Pokemon {
     private Integer id;
     private HashMap<String, String> name;
