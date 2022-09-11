@@ -3,11 +3,11 @@ package uk.co.argos.interview.entity;
 import java.util.HashMap;
 
 public class Pokemon {
-    private Integer id;
+    private int id;
     private HashMap<String, String> name;
     private HashMap<String, Integer> base; 
 
-    public Integer getId() {
+    public int getId() {
         return id;
     }
 
@@ -19,7 +19,7 @@ public class Pokemon {
         return base;
     }
 
-    public void setId(Integer id) {    
+    public void setId(int id) {    
         this.id = id;
     }
 
