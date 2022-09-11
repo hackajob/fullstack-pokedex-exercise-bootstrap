@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 import uk.co.argos.interview.service.PokedexService;
+import uk.co.argos.interview.entity.Pokemon;
 
 @RestController
 public class HelloController {
@@ -16,9 +17,9 @@ public class HelloController {
     }
     
     @GetMapping("/h/p/n/{name}")
-    public boolean check(@PathVariable String name) {
-        PokedexService validator = new PokedexService();
+    public Pokemon check(@PathVariable String name) {
+        PokedexService pokedexService = new PokedexService();
 
-        return validator.get(name);
+        return pokedexService.get(name);
     }
 }
