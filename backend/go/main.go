@@ -13,7 +13,10 @@ const (
 
 func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-	  fmt.Fprintf(w, "This is a Simple HTTP Web Server!")
+                w.Header().Set("Access-Control-Allow-Origin", "*")
+                w.Header().Set("Content-Type", "application/json")
+		
+	        fmt.Fprintf(w, "This is a Simple HTTP Web Server!")
 	})
 
 	err := http.ListenAndServe(Host+":"+Port, nil)
